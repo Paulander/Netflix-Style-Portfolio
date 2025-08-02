@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Netflix colors */
+  --netflix-red: hsl(348, 97%, 50%);
+  --netflix-black: hsl(0, 0%, 0%);
+  --netflix-dark: hsl(0, 0%, 8%);
+  --netflix-gray: hsl(0, 0%, 20%);
+  --netflix-light-gray: hsl(0, 0%, 70%);
+}
+
+.dark {
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(0, 0%, 8%);
+  --muted-foreground: hsl(0, 0%, 70%);
+  --popover: hsl(0, 0%, 8%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(0, 0%, 8%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(0, 0%, 20%);
+  --input: hsl(0, 0%, 20%);
+  --primary: hsl(348, 97%, 50%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(0, 0%, 20%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(0, 0%, 20%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(0, 0%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-netflix-black text-white;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(77deg, rgba(0,0,0,.6), transparent 85%);
+  }
+  
+  .card-shadow {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  }
+  
+  .text-netflix-red {
+    color: var(--netflix-red);
+  }
+  
+  .bg-netflix-red {
+    background-color: var(--netflix-red);
+  }
+  
+  .text-netflix-black {
+    color: var(--netflix-black);
+  }
+  
+  .bg-netflix-black {
+    background-color: var(--netflix-black);
+  }
+  
+  .text-netflix-dark {
+    color: var(--netflix-dark);
+  }
+  
+  .bg-netflix-dark {
+    background-color: var(--netflix-dark);
+  }
+  
+  .text-netflix-gray {
+    color: var(--netflix-gray);
+  }
+  
+  .bg-netflix-gray {
+    background-color: var(--netflix-gray);
+  }
+  
+  .text-netflix-light-gray {
+    color: var(--netflix-light-gray);
+  }
+  
+  .bg-netflix-light-gray {
+    background-color: var(--netflix-light-gray);
+  }
+}
