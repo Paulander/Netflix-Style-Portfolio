@@ -1,4 +1,4 @@
-import { Dialog, DialogContent, DialogHeader } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { X, Github, ExternalLink } from "lucide-react";
 import type { Project } from "@shared/schema";
@@ -17,6 +17,10 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl w-full max-h-[90vh] overflow-y-auto bg-netflix-dark border-netflix-gray p-0">
+        <DialogTitle className="sr-only">{project.title}</DialogTitle>
+        <DialogDescription className="sr-only">
+          {project.description}
+        </DialogDescription>
         <div className="relative">
           <Button
             variant="ghost" 

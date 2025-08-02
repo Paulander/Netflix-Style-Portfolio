@@ -1,7 +1,11 @@
 import { Search, Bell, User } from "lucide-react";
 import { useState, useEffect } from "react";
 
-export function Navigation() {
+interface NavigationProps {
+  onProfileClick?: () => void;
+}
+
+export function Navigation({ onProfileClick }: NavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -29,13 +33,16 @@ export function Navigation() {
             <li><a href="#experience" className="hover:text-netflix-light-gray transition-colors">Experience</a></li>
             <li><a href="#projects" className="hover:text-netflix-light-gray transition-colors">Projects</a></li>
             <li><a href="#research" className="hover:text-netflix-light-gray transition-colors">Research</a></li>
-            <li><a href="#about" className="hover:text-netflix-light-gray transition-colors">About</a></li>
+            <li><button onClick={onProfileClick} className="hover:text-netflix-light-gray transition-colors">About</button></li>
           </ul>
         </div>
         <div className="flex items-center space-x-4">
           <Search className="w-5 h-5 hover:text-netflix-light-gray cursor-pointer transition-colors" />
           <Bell className="w-5 h-5 hover:text-netflix-light-gray cursor-pointer transition-colors" />
-          <div className="w-8 h-8 bg-netflix-red rounded-sm flex items-center justify-center">
+          <div 
+            className="w-8 h-8 bg-netflix-red rounded-sm flex items-center justify-center cursor-pointer hover:bg-red-700 transition-colors"
+            onClick={onProfileClick}
+          >
             <User className="w-4 h-4" />
           </div>
         </div>

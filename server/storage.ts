@@ -171,10 +171,146 @@ export class MemStorage implements IStorage {
       }
     ];
 
+    // Add more experience projects for horizontal scrolling
+    const moreExperienceProjects: InsertProject[] = [
+      {
+        title: "Technical Lead",
+        description: "Led technical architecture decisions for a fintech platform processing $100M+ in transactions. Built scalable APIs, implemented fraud detection, and managed a team of 12 engineers.",
+        category: "experience",
+        company: "FinTech Corp",
+        year: "2019-2020",
+        technologies: ["Python", "FastAPI", "Kafka", "Redis", "PostgreSQL", "ML"],
+        features: ["Fraud Detection", "High-frequency Trading", "Real-time Analytics", "Risk Management"],
+        imageUrl: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/fintech-platform",
+        demoUrl: "https://fintech-demo.com"
+      },
+      {
+        title: "Mobile App Developer",
+        description: "Built cross-platform mobile applications for 2M+ users. Implemented real-time messaging, push notifications, and offline-first architecture with seamless sync.",
+        category: "experience",
+        company: "Mobile Solutions Inc",
+        year: "2018-2019",
+        technologies: ["React Native", "TypeScript", "GraphQL", "Apollo", "Firebase"],
+        features: ["Real-time Messaging", "Offline Support", "Push Notifications", "Cross-platform"],
+        imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/mobile-app",
+        demoUrl: "https://mobile-demo.com"
+      },
+      {
+        title: "Frontend Architect",
+        description: "Designed and implemented component library used across 15+ applications. Improved performance by 60% and reduced bundle size by 40% through code splitting and optimization.",
+        category: "experience",
+        company: "Design Systems Ltd",
+        year: "2017-2018",
+        technologies: ["React", "Storybook", "Webpack", "Jest", "Cypress"],
+        features: ["Component Library", "Performance Optimization", "Automated Testing", "Documentation"],
+        imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/component-library",
+        demoUrl: "https://design-system-demo.com"
+      }
+    ];
+
+    // Add more side projects for horizontal scrolling
+    const moreSideProjects: InsertProject[] = [
+      {
+        title: "Recipe Sharing Platform",
+        description: "Social platform for sharing and discovering recipes with AI-powered recommendations. Features photo sharing, meal planning, and shopping list generation.",
+        category: "side-projects",
+        year: "2023",
+        technologies: ["Next.js", "Prisma", "OpenAI API", "Cloudinary", "Stripe"],
+        features: ["AI Recommendations", "Photo Sharing", "Meal Planning", "Social Features"],
+        imageUrl: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/recipe-platform",
+        demoUrl: "https://recipe-demo.com"
+      },
+      {
+        title: "Smart Home Dashboard",
+        description: "IoT dashboard for managing smart home devices with real-time monitoring, automation rules, and energy usage analytics. Supports 50+ device types.",
+        category: "side-projects",
+        year: "2022",
+        technologies: ["Python", "Raspberry Pi", "MQTT", "InfluxDB", "Grafana"],
+        features: ["Device Control", "Automation Rules", "Energy Monitoring", "Custom Dashboards"],
+        imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/smart-home",
+        demoUrl: "https://smarthome-demo.com"
+      },
+      {
+        title: "Weather Prediction App",
+        description: "Machine learning-powered weather forecasting with hyperlocal predictions. Uses ensemble models and satellite data for 95% accuracy up to 7 days.",
+        category: "side-projects",
+        year: "2022",
+        technologies: ["Python", "Scikit-Learn", "Flask", "Weather APIs", "Docker"],
+        features: ["ML Predictions", "Hyperlocal Forecasts", "Satellite Data", "API Integration"],
+        imageUrl: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/weather-ml",
+        demoUrl: "https://weather-demo.com"
+      },
+      {
+        title: "Language Learning Game",
+        description: "Gamified language learning platform with spaced repetition, voice recognition, and social competitions. Supports 12 languages with native speaker audio.",
+        category: "side-projects",
+        year: "2021",
+        technologies: ["Vue.js", "Web Speech API", "Firebase", "PWA", "WebRTC"],
+        features: ["Voice Recognition", "Spaced Repetition", "Social Features", "Offline Mode"],
+        imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/language-game",
+        demoUrl: "https://language-demo.com"
+      }
+    ];
+
+    // Add more research projects for horizontal scrolling
+    const moreResearchProjects: InsertProject[] = [
+      {
+        title: "Quantum Computing Algorithms",
+        description: "Novel quantum algorithms for optimization problems published in Nature Quantum Information. Achieved 1000x speedup over classical methods for specific NP-hard problems.",
+        category: "research",
+        venue: "Nature Quantum Information",
+        year: "2023",
+        technologies: ["Qiskit", "Python", "Quantum Circuits", "IBM Quantum", "Linear Algebra"],
+        features: ["Quantum Speedup", "Algorithm Design", "Experimental Validation", "Open Source"],
+        imageUrl: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/quantum-algorithms",
+        demoUrl: "https://quantum-demo.com"
+      },
+      {
+        title: "Edge Computing Research",
+        description: "Efficient resource allocation in edge computing networks published in IEEE INFOCOM. Proposed algorithms reduce latency by 45% while improving energy efficiency.",
+        category: "research",
+        venue: "IEEE INFOCOM",
+        year: "2022",
+        technologies: ["C++", "Network Simulation", "Optimization", "Edge Computing", "5G"],
+        features: ["Resource Optimization", "Latency Reduction", "Energy Efficiency", "5G Integration"],
+        imageUrl: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/edge-computing",
+        demoUrl: "https://edge-demo.com"
+      },
+      {
+        title: "Bioinformatics ML Pipeline",
+        description: "Machine learning pipeline for genomic data analysis published in Bioinformatics Journal. Identifies disease markers with 98.5% accuracy using multi-modal data.",
+        category: "research",
+        venue: "Bioinformatics Journal",
+        year: "2021",
+        technologies: ["R", "Bioconductor", "TensorFlow", "Docker", "AWS"],
+        features: ["Genomic Analysis", "Disease Prediction", "Multi-modal ML", "Cloud Pipeline"],
+        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=225",
+        githubUrl: "https://github.com/example/bioinformatics-ml",
+        demoUrl: "https://bio-demo.com"
+      }
+    ];
+
     // Add all projects to storage
-    [...experienceProjects, ...sideProjects, ...researchProjects].forEach(projectData => {
+    [...experienceProjects, ...moreExperienceProjects, ...sideProjects, ...moreSideProjects, ...researchProjects, ...moreResearchProjects].forEach(projectData => {
       const id = randomUUID();
-      const project: Project = { ...projectData, id };
+      const project: Project = { 
+        ...projectData, 
+        id,
+        company: projectData.company ?? null,
+        venue: projectData.venue ?? null,
+        githubUrl: projectData.githubUrl ?? null,
+        demoUrl: projectData.demoUrl ?? null,
+        isFeatured: projectData.isFeatured ?? null
+      };
       this.projects.set(id, project);
     });
   }
