@@ -1,0 +1,113 @@
+Oskar Paulander
+oskar@gullbrandstorp.com
+(+46) 79 102 64 62
+Tallflyv 11, 313 50 Åled, Sweden
+EDUCATION
+Chalmers University of Technology
+M. Sc. Applied Physics (2015), B. Sc. Engineering Physics (2013). “Teknisk Fysik”
+Some relevant courses: Master’s Thesis: Total Light Annihilation for SERS. Modern Imaging,
+Nanotechnology, Optics, Solid State Physics.
+WORK EXPERIENCE
+Gullbrandstorp Ingenjörsbyrå AB Founder, Consultant (March 2023- Present)
+Micropower Group
+● Embedded development on ARM Cortex for industrial battery chargers.
+● Working on modernizing build tools, updating bootloader, getting new device up and
+running (C/C++) from hardware to REST API. Small R&D department with a lot of
+agency.
+NutriSnap – Solo Developer, Full-Stack & AI Integration (Jan 2025–Present)
+● Built a full-stack AI nutrition tracking app (PWA) that analyzes food photos using
+multi-model inference (OpenAI, Gemini, Grok).
+● Developed backend in FastAPI with Stripe-based tiered billing, usage quotas, and
+multilingual support. Frontend in React/TypeScript.
+● Integrated AI prompting chains for few-shot reasoning and auto-correction of LLM
+output and prompt iteration for improved model accuracy.
+Polestar AB (March 2023 - Dec 2024)
+● Responsible for further implementation and testing of battery/propulsion features +
+functions described below.
+● Main responsible for integration and release pipelines/processes. working in small,
+independent, team in tight communication with CI/DevOps and PO.
+MancerAI - Inhouse, solo, project (Feb 2024-)
+● Building a team of autonomous AI agents that automates Jira planning and feature
+breakdown, as well as automatic readme creation and maintenance. Built in python
+using fastapi and other libs.
+● Utilizing RAG and graph search, built on the Greptile platform, backed by
+Y-Combinator. Currently using Claude 3.5, but model agnostic.
+Acumis Minds Technology/Software Consultant (Sept 2017 - March 2023)
+Polestar AB (Dec 2022 - March 2023)
+● Responsible for design and implementation of new battery and propulsion features
+concept for upcoming high performance car, utilizing modern C++, AutoSAR and
+latest platform.
+Vector GmbH Scrum Master/Developer (June 2021 - Dec 2022)
+● Organized scrum events for agile team of diverse (cultural and experience wise)
+developers. Facilitating meetings to improve team performance and spirit.
+● Regular meetings regarding planning and sync with stakeholders
+● Feature owner and main responsible for several deliveries
+Oskar Paulander
+oskar@gullbrandstorp.com
+(+46) 79 102 64 62
+Tallflyv 11, 313 50 Åled, Sweden
+● Developed Adaptive Autosar platform for automotive industry (BMW, GM, Volvo etc),
+specifically through ASIL certification according to ISO 26262
+Ericsson AB Developer Embedded Systems (June 2018 - June 2021)
+● Development and testing of MiniLink products (Microwave radio replacing fiber, and a
+part of the 5G infrastructure).
+● Implemented IPv6 Gateway support, Layer 2 features such as double tagged DCN -
+from hardware to user interface. Working in agile, cross functional, scrum team.
+Gemalto AB Software Developer Embedded Systems - R&D (Jan 2018 - June 2018)
+● Responsible for design and implementation of GUI for highly secure embedded
+device utilized by German bank applications.
+● Optimized image processing and smart card communication for said device.
+● Developed emulation software in C++ for testing before hardware was available.
+Tele-Radio AB
+Software Developer Embedded Systems, R&D (April-Sept 2015, Jan -Sept 2017)
+● Programmed Firmware for Industrial Remote Controls.
+● Implemented memory access and data conversion for PC configuration tools.
+Software Support-Engineer, GSI (Sept 2015- Dec 2016)
+● Programmed remote control systems for special applications, many generating over
+$100 000 in sales annually.
+● Trained subsidiaries in five countries on products and integration with bus-systems.
+Smartnoise AB
+Software Developer / Project Manager (Jan 2014-)
+● Developing iOS app, chrome plugin and later webapp improving children with
+ADHD‘s cognitive performance, utilizing stochastic resonance via auditory stimuli.
+● Produced stochastic voltage protocols for electric stimuli (Electrical Vestibular
+Stimuli) in patients with ADHD, parkinson’.
+● Overseeing external consultants, minimizing the time required to complete the task.
+● Turned out to benefit dyslexic users via visual stimuli. Ongoing research and
+development.
+Lund University / Smartnoise AB
+Researcher’s Assistant (July 2013 - Present)
+● Analyzing data for researchers, presenting it in a creative way to users via website
+● Main point-of-contact for beta-test users, including on site visits to schools.
+● Responsible for method sections of published articles, explaining the nature of the
+devices and noise protocols used in various studies.
+Oskar Paulander
+oskar@gullbrandstorp.com
+(+46) 79 102 64 62
+Tallflyv 11, 313 50 Åled, Sweden
+OTHER QUALIFICATIONS
+Raylyze
+Founder, CEO and lead AI Developer (May 2020 - July 2021)
+● Developing and designing a handheld Raman Spectrometer (SW and HW) for ultra
+sensitive detection of unknown substances.
+● Driving down HW costs by utilizing powerful machine learning SW based on
+Convolutional Neural Networks
+Software Experience
+C,C++, Python, Java,Matlab, Javascript,
+Parallel Computing, OpenMP, MPI, Machine Learning (ANN implemented from scratch -
+matrices, Convolutional NNs, Deep Q, Markov chains etc),
+PyTorch, Tensorflow, Pinecone,
+RAG, Vectorization/Vector databases, prompt engineering, LLM APIs
+ARM,Linux/Unix(Redhat,Ubuntu), External frameworks for LLMs, RAG
+MySQL, SQLite, XML, json,
+Django, Docker, Linode,
+git, hg,
+Hansoft, Jira, Redmine, Jenkins, gerrit
+SCons, make, gcc, cmake, tasking tricore
+Activities and other qualifications
+● Co-author on published article in cognitive neuroscience with Smartnoise
+● Administering an online forum with >2 million users. Managed onboarding for online
+Starcraft community with >3000 members.
+● Competed in chess on Swedish elite-level (junior) with ~1900 rating at age 15.
+● Several web apps (Meal tracker, husband companion, note taking app, several
+webpages etc) available on request
