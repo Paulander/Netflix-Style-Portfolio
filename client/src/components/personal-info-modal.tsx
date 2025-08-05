@@ -9,22 +9,22 @@ interface PersonalInfoModalProps {
 
 export function PersonalInfoModal({ isOpen, onClose }: PersonalInfoModalProps) {
   const personalInfo = {
-    name: "Alex Johnson",
-    title: "Senior Software Engineer & Researcher",
-    location: "San Francisco, CA",
-    email: "alex.johnson@email.com",
-    phone: "+1 (555) 123-4567",
-    bio: "Passionate software engineer with 8+ years of experience building scalable systems and conducting cutting-edge research. I specialize in full-stack development, machine learning, and distributed systems architecture.",
+    name: "Oskar Paulander",
+    title: "Embedded Systems Engineer & AI Developer",
+    location: "Åled, Sweden",
+    email: "oskar@gullbrandstorp.com",
+    phone: "+46 79 102 64 62",
+    bio: "Experienced embedded systems engineer and AI developer with 10+ years of experience. Founded Gullbrandstorp Ingenjörsbyrå AB, specializing in ARM Cortex development, automotive systems, and AI applications. M.Sc. Applied Physics from Chalmers University with expertise spanning from hardware to full-stack AI solutions.",
     skills: [
-      "Full-Stack Development", "Machine Learning", "Cloud Architecture", 
-      "DevOps", "Research & Publications", "Team Leadership",
-      "System Design", "Mobile Development"
+      "Embedded Systems", "C/C++", "ARM Cortex", "AI/Machine Learning", 
+      "AutoSAR", "FastAPI", "React/TypeScript", "RAG & LLM Integration",
+      "Automotive Systems", "IoT Development", "Python", "Team Leadership"
     ],
     social: {
-      github: "https://github.com/alexjohnson",
-      linkedin: "https://linkedin.com/in/alexjohnson",
-      twitter: "https://twitter.com/alexjohnson",
-      website: "https://alexjohnson.dev"
+      github: "https://github.com/oskarpaulander",
+      linkedin: "https://linkedin.com/in/oskarpaulander",
+      twitter: "https://twitter.com/oskarpaulander",
+      website: "https://gullbrandstorp.com"
     }
   };
 
