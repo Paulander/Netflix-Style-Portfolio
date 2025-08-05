@@ -29,11 +29,14 @@ export function HeroSection({ onProjectSelect }: HeroSectionProps) {
 
   return (
     <section id="home" className="relative h-screen flex items-center">
-      <div className="absolute inset-0 w-full h-full">
+      <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-netflix-black to-netflix-gray">
         <img 
           src={featuredProject.imageUrl}
           alt={featuredProject.title}
           className="w-full h-full object-cover"
+          onError={(e) => {
+            e.currentTarget.style.display = 'none';
+          }}
         />
         <div className="absolute inset-0 hero-gradient"></div>
       </div>
