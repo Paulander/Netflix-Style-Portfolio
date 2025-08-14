@@ -2,6 +2,7 @@
 # Netflix-Inspired Portfolio Website
 
 A full-stack TypeScript portfolio website built with a Netflix-style interface featuring a hero section, horizontal scrolling project rows, and detailed project modals.
+<img width="2580" height="1184" alt="Skärmbild 2025-08-05 100850" src="https://github.com/user-attachments/assets/fa16c2d8-24c1-4f5e-9138-ba93f1b22d59" />
 
 ## 🚀 Features
 
